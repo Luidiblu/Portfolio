@@ -1,2 +1,272 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text active">
+            <h1>Diego Pisani<span class="brown-text light">Full Stack Developer</span></h1></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="fas fa-user small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="fas fa-chart-line small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="fas fa-code-branch small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="fas fa-book small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="fas fa-envelope small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Andrew's resume in a new tab" href="https://docs.google.com/document/d/179_HlnQGkPAMFarKKsm9vqiz_aE8VTOodEVVyAapQTc/edit?usp=sharing" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="fas fa-file-alt small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Diego Pisani</a><span class="brown-text light">Full Stack Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav" style="width: 190px; left: -200px;">
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="fas fa-user small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="fas fa-chart-line small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="fas fa-code-branch small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="fas fa-book small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="fas fa-envelope small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Andrew's Resume in a new tab" href="https://docs.google.com/document/d/179_HlnQGkPAMFarKKsm9vqiz_aE8VTOodEVVyAapQTc/edit?usp=sharing" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="fas fa-file-alt small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+<main>
+<section id="intro" class="section scrollspy full-height">
+  <div class="overlay"></div>
+    <div class="container">
+      <h2>I have crippling depression
+        <span class="teal">help</span>
+        <br>
+        Peanut Butter
+        <span class="underline">Jelly Time</span>
+        .
+      </h2>
+    </div>
+
+</section>
+<section id="about" class="section scrollspy">
+  <h3 class="page-title white-text teal">About</h3>
+    <div class="container flow-text">
+      <blockquote>
+        <h2>Me</h2>
+      </blockquote>
+        <p>When I was 7 years old, I started learning some HTML. Since then I've been studying about technology and how the internet works. At 14, I programmed my first HTML website with CSS and JavaScript. At 15 I started to study social media and audiovisual because it's a thing which I appreciate and in that time it was something I considered worth learning. At 16 I programmed a program in python to calculate solar irradiance by a given geographic coordinate. At 18 I studied at LeWagon, a awesome bootcamp. Now I’m eager for more, trying to make my life different and be more productive with things I like to do.</p>
+</section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://cnb.gg/" target="_blank"><%= image_tag ("cnb.png"), class: "responsive-img center-block", alt: "CNB logo"%></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://cnb.gg/" target="_blank" class="teal-text hoverline">CNB e-Sports Club</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Videomaker</div>
+              <p><em class="grey-text">e-Sports team created at 2012.</em></p>
+              <h6>Role</h6>
+              <ul>
+                <li>Record the videos inside the Gaming House</li>
+                <li>Record videos inside Riot Games studios</li>
+                <li>Record the events of CNB Arena</li>
+                <li>Edit all videos</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jan 2017 - Jan 2019  |  São Paulo</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://www.lewagon.com/" target="_blank"><%= image_tag ("lewagon.png"), class: "responsive-img center-block", alt: "LeWagon logo"%></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://www.lewagon.com/" target="_blank" class="teal-text hoverline">LeWagon</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Teaching Assistant</div>
+              <p><em class="grey-text">Le Wagon is an intensive 9-week coding bootcamp that teaches you how to code great tech products.</em></p>
+              <h6>Role</h6>
+              <ul>
+                <li>Help other students.</li>
+                <li>Increase the entanglement of students.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jul 2019 - Now  |  São Paulo</span></div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><%= image_tag ("LeafStore.jpg"), class: "activator" %></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">LeafStore<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Marketplace for Eletric Cars.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Bootstrap, Bulma CSS</strong> frontend</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit LeafStore web app" href="http://leafstore.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fas fa-eye"></i></a><a aria-label="Visit the GitHub repo for Interpol8r project" href="https://github.com/Luidiblu/EletricMarketplace" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fab fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><%= image_tag ("Teewee.jpg"), class: "activator" %></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Teewee<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Find friends to play with you.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Bootstrap, Bulma CSS</strong> frontend</li>
+                    <li><strong>Dependency free</strong> JS config</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Interpol8r web app" href="https://teewee.fun" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fas fa-eye"></i></a><a aria-label="Visit the GitHub repo for Interpol8r project" href="https://github.com/Luidiblu/GameChange" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fab fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("html5.png"), class: "responsive-img" %>
+                  HTML
+                </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("react.png"), class: "responsive-img" %>
+                  JSX
+                </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("haml.png"), class: "responsive-img" %>
+                  Haml
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("css3.png"), class: "responsive-img" %>
+                CSS3
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("sass.png"), class: "responsive-img" %>
+                SASS
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("bootstrap.png"), class: "responsive-img" %>
+                Bootstrap
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("foundation.png"), class: "responsive-img" %>
+                Foundation
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("materialize.png"), class: "responsive-img" %>
+                Materialize
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("react.png"), class: "responsive-img" %>
+                React
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("javascript.png"), class: "responsive-img" %>
+                Javascript
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("jquery.png"), class: "responsive-img" %>
+                jQuery
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Back-End</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("ruby.png"), class: "responsive-img" %>
+                Ruby
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("rails.png"), class: "responsive-img" %>
+                Rails
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("minitest.png"), class: "responsive-img" %>
+                Minitest
+              </div>
+              <div class="col s4 m2">
+                  <%= image_tag ("python.png"), class: "responsive-img" %>
+                Python
+              </div>
+              <div class="col s4 m2">
+                  <%= image_tag ("django.png"), class: "responsive-img" %>
+                Django
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("postgresql.png"), class: "responsive-img" %>
+                PostgreSQL
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("webpack.png"), class: "responsive-img" %>
+                Webpack
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <%= image_tag ("github.png"), class: "responsive-img" %>
+                  Github
+                </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("heroku.png"), class: "responsive-img" %>
+                Heroku
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("photoshop.png"), class: "responsive-img" %>
+                Photoshop
+              </div>
+                <div class="col s4 m2">
+                  <%= image_tag ("premiere.png"), class: "responsive-img" %>
+                Premiere
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p><a aria-label="Email Diego" href="mailto:diego.luidiblu@gmail.com" data-position="top" data-tooltip="Email Andrew" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i></a><a alt="" href="mailto:diego.luidiblu@gmail.com" class="hoverline">diego.luidiblu@gmail.com</a></p>
+          <p><a aria-label="View Diego on GitHub" href="http://github.com/luidiblu" target="_blank" data-position="top" data-tooltip="View Diego on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fab fa-github"></i></a><a alt="" href="http://github.com/luidiblu" class="hoverline">github.com/luidiblu</a></p>
+          <p><a aria-label="View Diego on LinkedIn" href="http://linkedin.com/in/diegopisani" target="_blank" data-position="top" data-tooltip="View Andrew on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fab fa-linkedin-in"></i></a><a alt="" href="http://linkedin.com/in/diegopisani" class="hoverline">linkedin.com/in/diegopisani</a></p>
+        </div>
+      </section>
+</main>
